@@ -2,17 +2,17 @@
 # Theme Customization #
 #######################
 
-title: J. Bravo                             # used in <title> tag & site header
-author: Johnny Bravo                        # used in a <meta> tag & /feed.xml
+title: Ho!                            # used in <title> tag & site header
+author: 이 호 성                        # used in a <meta> tag & /feed.xml
 description: >                              # used in a <meta> tag & /feed.xml
   Hello 911 emergency, there's a handsome guy in my house!
   Oh wait a second, cancel that. It's only me.
-slogan: Showtime!                           # used in site header, beside title
+slogan: Do our best!!                    # used in site header, beside title
 avatar: /i/avatar.jpg                       # used as portrait in site header
 banner: /i/mountains.svg                    # used as background in site header
 url: http://solana.ryanlue.com              # used by plugins to generate feed.xml and sitemap.xml
 baseurl: ''                                 # prepended to all absolute filepaths
-repo: https://github.com/rlue/jekyll-solana # used in footer
+repo: https://github.com/soh9646/soh9646.github.io # used in footer
 
 # Objects listed here will appear in the main nav menu.
 # Exceeding four items may cause problems on the desktop (>900px wide) layout.
@@ -27,10 +27,8 @@ nav_menu:
     url: https://github.com/rlue/
     icon: /i/icons.svg#github
     outbound: true      # this key sets a link to open in a new window.
-  - name: Contact
-    scheme: mailto      # these keys enable email obfuscation.
-    handle: hello       # you know, to protect you from bots. (handle and domain
-    domain: github.com  # are separated in case bots crawl GitHub repos, too.)
+  - name: Portfolio
+    url: /portfolio
     icon: /i/icons.svg#email
 
 # Objects listed here will appear on the /projects.html page.
